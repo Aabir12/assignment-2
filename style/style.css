@@ -22,6 +22,7 @@
     border-radius: 2.9rem;
     padding: 0.5rem 1.2rem;
 }
+
 /* font-family: "Inter", sans-serif; */
 
 /* started to desing the header part */
@@ -160,3 +161,46 @@ body{
 
 /* end banner part */
 
+/* start design the change ur habite part  */
+
+.change-your-habite-container{
+    margin-top: 6.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+.habite-content{
+    text-align: center;
+}
+.habite-content h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.habite-content p{
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.habite-image-container{
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    padding-top: 3.35rem;
+    /* align-items: center; */
+    text-align: center;
+    gap: 2.5rem;
+}
+.habite-image-content{
+    /* border: 1px solid red; */
+    width: 25%;
+}
+.habite-image-content>img{
+    border-radius: 50%;
+}
+.habite-image-content>h5{
+    font-size: 1.1rem;
+}
+.habite-image-content>p{
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}

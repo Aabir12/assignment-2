@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px) {
+    /* navbar design start  */
+    .nav-container{
+        width: 95%;
+    }
+    .nav-option{
+        border: none;
+    }
+    #nav-opt {
+        display: none;
+   }
+    #navbar-icon{
+        display: block;
+    }
+    /* navbar design end  */
+
+
+
+}

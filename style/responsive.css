@@ -54,4 +54,19 @@
     }
 
     /* banner end  */
+
+    /* start responsive the change your habite section  */
+    .change-your-habite-container{
+        margin-top: 0;
+    }
+    .habite-image-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .habite-image-content{
+        width: 100%;
+    }
+
+
+    
 }

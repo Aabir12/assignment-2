@@ -21,6 +21,8 @@
     font-weight: 600;
     border-radius: 2.9rem;
     padding: 0.5rem 1.2rem;
+    max-width: 13rem;
+    text-align: center;
 }
 
 /* font-family: "Inter", sans-serif; */
@@ -71,7 +73,13 @@ body{
     width: 20px;
     display: none;
      
+}
 
+.button-orange{
+    background-color: rgb(230, 83, 60);
+    font-weight: 600;
+    border-radius: 2.9rem;
+    padding: 0.5rem 1.2rem;
 }
 
 /* end navbar design */
@@ -204,3 +212,51 @@ body{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
+
+/* start the Run an Extra Mile Easily section  */
+.run-container{
+    margin-top: 6.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 1.85rem 2rem 1.85rem 3.3rem;
+}
+.run-content{
+    display: flex;
+    /* gap: 10.31rem; */
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.run-description-content{
+    width: 40%;
+    /* border: 2px solid tomato; */
+}
+.run-description-content>h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.run-description-content-paragraph{
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.run-image-content{
+    width: 22.85rem;
+    height: 19.5rem;
+    /* border: 2px solid tomato; */
+    border-radius: 18px;
+    overflow: hidden;
+}
+.run-image-content>img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     transform: scale(2);
+     transform-origin:  85% 20%;   
+}
+ 
+

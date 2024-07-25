@@ -95,4 +95,25 @@
           margin: 0 auto;
     }
     
+    /* bmi title  */
+    .bmi-title{
+        margin: 1.5rem auto;
+        width: 90%;
+        text-align: left;
+    }
+
+    /* calculator container  */
+
+    .bmi-calculator-container{
+        width: 90%;
+        flex-direction: column;
+        gap: 42px;
+    }
+    .bmi-chart-content{
+        width: 100%;
+    }
+    .bmi-calculator-content{
+        width: 100%;
+    }
+   
 }

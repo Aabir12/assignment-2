@@ -259,3 +259,119 @@ body{
      transform-origin:  85% 20%;   
 }
  
+
+/* bmi title  */
+.bmi-title{
+    margin-top: 5.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5.5rem;
+    width: 85%;
+    text-align: center;
+}
+.bmi-title h1{
+    font-weight: 900;
+    font-size: 3rem;
+}
+.bmi-title p{
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+/* end bmi title  */
+
+/* bmi-calculator  */
+.bmi-calculator{
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+
+
+/* start to design the calculator part  */
+.bmi-calculator-container{
+    width: 85%;
+    margin: 3.5rem auto;
+    padding-top: 3rem; 
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+/* bmi chart table   */
+.bmi-chart-content{
+    width: 25%;
+}
+.bmi-chart-content h1{
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th , td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    padding: 0.5rem;
+}
+th{
+    font-size: 1rem;
+    font-weight: 500;
+}
+td{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* .bmi-calculator-content   */
+
+.bmi-calculator-content{
+        width: 45%;
+        
+}
+.bmi-calculator-content>h1{
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+.bmi-calculator-content>p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.calculate-form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 12px;
+     
+}
+.calculate-form input , .calculate-form select  {
+    padding: 0.7rem;
+    width: calc( 50% - 0.7rem );
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.3);
+    padding-right: 0.4rem;
+}
+.submit-calculate{
+    background-color: rgb(230, 83, 60);
+    font-weight: 600;
+    border-radius: 2.9rem;
+    padding: 0.5rem 1.2rem;
+    width: 11rem;
+    text-align: center;
+    border: none;
+    color: #ffffff;
+}
+#select{
+    width: calc( 100% - 0.35rem);
+}
+
+  

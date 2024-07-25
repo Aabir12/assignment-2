@@ -130,6 +130,77 @@
                 </div>
             </div>
         </section>
+        
+        <section class="bmi-title">
+            <h1>BMI Calculator</h1>
+            <br>
+            <p>Track your fitness journey with our easy-to-use BMI Calculator, designed to help you maintain a healthy weight and lifestyle.</p>
+        </section>
+        <section class="bmi-calculator">
+            <div class="bmi-calculator-container">
+                <div class="bmi-chart-content">
+                    <h1>BMI Calculator Chart</h1>
+                    <br>
+                    <br>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>BMI </td>
+                                <td>Weight Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                            
+                        </tbody>
+
+                    </table>
+                </div>
+                <div class="bmi-calculator-content">
+                    <h1>
+                        Calculate your BMI
+                    </h1>
+                    <br>
+                    <p>
+                        Calculate your BMI effortlessly and gain valuable insights into your health and fitness levels.
+                    </p>
+                    <br>
+                     <form class="calculate-form">
+                        <input  name="Height/cm" type="text" placeholder="Height/cm">
+                        <input  type="text" placeholder="Weight/kg">
+                        <input   type="text" placeholder="Age">
+                        <select required>
+                            <option style="background: black;" value="">sex</option>
+                            <option style="background: black;" value="male">male</option>
+                            <option style="background: black;" value="female">female</option>
+                        </select>
+                        <select required id="select">
+                            <option style="background: black;" value="">Select an activity factor</option>
+                            <option style="background: black;" value="1">lightly active</option>
+                            <option style="background: black;" value="2">very active</option>
+                            <option style="background: black;" value="3">super active</option> 
+                        </select>
+                     </form>
+                     <br>
+                     <button class="submit-calculate">Calculate</button>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 

@@ -96,7 +96,7 @@
     }
     
     /* bmi title  */
-    .bmi-title{
+    .design-title{
         margin: 1.5rem auto;
         width: 90%;
         text-align: left;
@@ -116,4 +116,27 @@
         width: 100%;
     }
    
+    /* meet our team section  */
+    .meet-our-team-container{
+        width: 90%;
+    }
+    .meet-our-team-image-container{
+        grid-template-columns: repeat(1, 1fr);    
+    }
+     #team-member-1,#team-member-4 {
+        display: none;
+    }
+    #team-member-2{
+        order: 2;
+    }
+    #team-member-3{
+        order: 5;
+    }
+    
+    #team-member-5{
+        order: 3;
+    }
+    #team-member-6{
+        order: 6;
+    }
 }

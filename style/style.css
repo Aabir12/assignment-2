@@ -3,7 +3,7 @@
 @import url('https://fonts.cdnfonts.com/css/miama');
 *{
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0 ;
     padding: 0;
     max-width: 1440px;
 
@@ -38,7 +38,8 @@ body{
 /* start css banner style */
 .header-container{
   
-   background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.1) 100%);
+   /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.1) 100%); */
+   background: linear-gradient(180.00deg, rgb(19, 19, 19),rgba(119, 119, 119, 0.12) 100%);
     padding-top: 1rem;
    
 }
@@ -47,7 +48,6 @@ body{
 .nav-container{
     display: flex;
     justify-content: space-between;
-     
     width: 85%;
     margin: 3.5rem auto 0;
     align-items: center;
@@ -395,6 +395,8 @@ td{
 .meet-our-team-image-content{
     position: relative;
     height: 270px;
+    /* border: 2px solid tomato; */
+    width: 100%;
 }
  
 .meet-our-team-image-container img{

@@ -139,4 +139,24 @@
     #team-member-6{
         order: 6;
     }
+
+    /* footer section  */
+
+    .footer-container{
+        width: 100%; 
+        padding-left: 1.1rem;  
+        padding-right: 2rem;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+    .get-started{
+        flex-direction: column;
+    }
+    .get-started div {
+        margin-top: 1.8rem;
+    }
+    #right-reseved{
+        padding-bottom: 3.5rem;
+    }
 }

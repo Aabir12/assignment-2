@@ -1,4 +1,8 @@
 @media screen and (max-width: 576px) {
+
+    html{
+        font-size: 12px;
+    }
     /* navbar design start  */
     .nav-container{
         width: 95%;
@@ -22,6 +26,9 @@
     }
     .banner-container{
         width: 95%;
+    }
+    .banner-image{
+        width: 100%;
     }
     .banner-btn{        
        justify-content: space-between;
@@ -131,8 +138,7 @@
     }
     #team-member-3{
         order: 5;
-    }
-    
+    }    
     #team-member-5{
         order: 3;
     }
@@ -140,6 +146,18 @@
         order: 6;
     }
 
+    /* subscription section */
+
+    .subscription-content{
+        width: 80%;
+        flex-direction: column;
+    }
+    .subscription-plan p{
+        width: 40%;
+    }
+    #sub-p1 , #sub-p2{
+        margin-top: 1.5rem;
+    }
     /* footer section  */
 
     .footer-container{
